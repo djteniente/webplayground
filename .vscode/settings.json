@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/Users/djteniente/.conda/envs/django2/bin/python"
+    "python.pythonPath": "/home/pupitos/miniconda3/envs/django2/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
