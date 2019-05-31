@@ -24,6 +24,7 @@
               <input type="file" name="avatar" class="form-control-file mt-3" id="id_avatar">
               {{ form.bio }}
               {{ form.link }}
+              <input type="email" value="{{ request.user.mail }}" class="form-control mt-3" readonly>
               <input type="submit" class="btn btn-primary btn-block mt-3" value="Actualizar">
             </div>
           </div>
